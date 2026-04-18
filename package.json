@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "express": "^5.2.1",
+    "package": "^1.0.1"
+  },
+  "name": "website",
+  "version": "1.0.0",
+  "description": "gaming website to download pc games",
+  "main": "index.js",
+  "scripts": {
+  "start": "node server.js",
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rethabileliphalane213-lab/website.git"
+  },
+  "keywords": [],
+  "author": "Rethabile Liphalane",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rethabileliphalane213-lab/website/issues"
+  },
+  "homepage": "https://github.com/rethabileliphalane213-lab/website#readme"
+ 
+}
