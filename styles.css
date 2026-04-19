@@ -13,14 +13,14 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: green; 
+    background-color: white; 
 }
 
 #right-canvas {
     position: absolute;
     top: 0;
     right: 0;
-    background-color: blue;
+    background-color: white;
    
 }
 
@@ -33,5 +33,54 @@ body {
     z-index: 1;
     position: absolute;
     top: 0;
-    left: 25%;
+    left: 23%;
+    height:100%
+}
+fieldset{
+    border:2px solid gold;
+    
+    display:flex
+}
+#btn{
+    display:column
+}
+header{
+  position:relative;
+  left:40%
+}
+
+#search{
+    width:400px;
+    height:400px;
+   
+    position:relative;
+    right:-550px
+}
+
+#zeus{
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    
+    
+}
+footer{
+    position:relative;
+    top:25vh;
+    width:40%;
+    height:10%;
+    
+    left:0;
+font-size:20px;
+color:red
+}
+
+
+legend{
+    position:relative;
+    bottom:20%
+}
+#web-name{
+    color:red;
 }
